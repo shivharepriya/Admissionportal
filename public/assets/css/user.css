@@ -1,0 +1,785 @@
+@media(max-width: 1300px) {
+
+    /*login form css*/
+    .login-form-box,
+    .register-form-box {
+        width: 55%;
+    }
+
+    .login-input-group {
+        width: 77%;
+    }
+
+    .login-button button {
+        margin: 0 4rem;
+    }
+
+    .extra-div {
+        left: 63px;
+    }
+
+    .extra-div p {
+        left: 161px;
+    }
+
+    .extra-div button {
+        left: 10rem;
+    }
+
+    /* register form css */
+    .register-form-headline {
+        left: 8rem;
+    }
+
+    .register.form-floating .form-control {
+        width: 166%;
+        margin: 0 36px;
+    }
+
+    .register-button button {
+        width: 135%;
+        margin: 0 6rem;
+    }
+
+    .already-button-box {
+        left: 151px;
+    }
+    /* user navbar css start */
+   
+}
+
+@media screen and (max-width: 1300.5px) and (min-width: 1200px) {
+
+    /* login form css */
+    .multiple-login {
+        margin: 10px 71px;
+    }
+
+    /* register form css */
+    .register.form-floating .form-control {
+        width: 172%;
+    }
+}
+
+@media screen and (max-width: 1199.5px) and (min-width: 1025px) {
+
+    /*login form css*/
+    .extra-div {
+        left: 32px;
+    }
+
+    .multiple-login {
+        margin: 10px 58px;
+    }
+
+    /*  register form css  */
+    .register.form-floating .form-control {
+        width: 138%;
+    }
+
+    .register-button button {
+        width: 100%;
+        margin: 0 6.1rem;
+    }
+
+    .already-button-box {
+        left: 109px;
+    }
+
+    .register-form-headline {
+        left: 5rem;
+    }
+}
+
+@media screen and (max-width:1025px) and (min-width:911px) {
+
+    /*login form css*/
+    .extra-div {
+        left: -21px;
+        width: 128%;
+    }
+
+    .extra-div p {
+        left: 187px;
+    }
+
+    .extra-div button {
+        left: 13.3rem;
+        width: 22%;
+    }
+
+    .login-input-group {
+        width: 71%;
+    }
+
+    .multiple-login {
+        margin: 10px 72px;
+    }
+
+    /*  register form css  */
+    .register.form-floating .form-control {
+        width: 141%;
+    }
+
+    .register-form-headline {
+        left: 5rem;
+    }
+
+    .register-button button {
+        width: 100%;
+    }
+
+    .already-button-box {
+        left: 102px;
+    }
+}
+
+@media(max-width: 992.5px) {
+
+    /*login form css*/
+    .extra-div p {
+        left: 132px;
+    }
+
+    .extra-div button {
+        left: 10.3rem;
+        width: 28%;
+    }
+
+    .login-button button {
+        margin: 0 3.5rem;
+    }
+
+    .multiple-login {
+        margin: 10px 54px;
+    }
+
+    /*  register form css */
+    .register.form-floating .form-control {
+        width: 100%;
+    }
+
+    .register-form-headline {
+        left: 1.2rem;
+    }
+
+    .register-button button {
+        margin: 0 2.1rem;
+        width: 100%;
+    }
+
+    .already-button-box {
+        left: 44px;
+    }  
+}
+
+@media screen and (max-width:911px) and (min-width:810px) {
+
+    /*login form css*/
+    .login-headline {
+        left: 2rem;
+    }
+
+    .login-button button {
+        margin: 0 2.7rem;
+    }
+
+    .extra-div p {
+        left: 51px;
+    }
+
+    .extra-div button {
+        left: 5.3rem;
+        width: 34%;
+    }
+}
+
+@media screen and (max-width:810px) and (min-width:768px) {
+
+    /*login css start */
+    .login-headline {
+        left: 2rem;
+    }
+
+    .extra-div p {
+        left: 51px;
+    }
+
+    .extra-div button {
+        left: 5.4rem;
+        width: 32%;
+    }
+
+    .login-button button {
+        margin: 0 2.7rem;
+    }
+}
+
+@media screen and (max-width:767.5px) and (min-width:610px) {
+
+    /*login css start*/
+    .login-headline {
+        left: 2rem;
+    }
+
+    .login-form-box,
+    .register-form-box {
+        width: 78%;
+    }
+
+    .extra-div p {
+        left: 67px;
+    }
+
+    .extra-div button {
+        left: 6.3rem;
+        width: 31%;
+    }
+
+    .login-button button {
+        margin: 0 2.8rem;
+    }
+}
+
+@media screen and (max-width:610px) and (min-width:500px) {
+
+    /*login form css*/
+    .login-form-box,
+    .register-form-box {
+        width: 77%;
+    }
+
+    .extra-div p {
+        left: 50px;
+    }
+
+    .extra-div button {
+        left: 5.2rem;
+        width: 33%;
+    }
+
+    .login-button button {
+        margin: 0 2.8rem;
+    }
+}
+
+@media screen and (max-width:499.5px) and (min-width:440px) {
+
+    /*login form css*/
+    .login-form-box,
+    .register-form-box {
+        width: 97%;
+    }
+
+    .login-headline {
+        left: 2rem;
+    }
+
+    .login-button button {
+        margin: 0 2.9rem;
+    }
+
+    .extra-div p {
+        left: 65px;
+    }
+
+    .extra-div button {
+        left: 5.7rem;
+        width: 32%;
+    }
+
+    /* register form css */
+    .register-form-headline {
+        left: 2rem;
+    }
+
+    .register.form-floating .form-control {
+        width: 107%;
+    }
+
+    .register-button button {
+        margin: 0 3.1rem;
+    }
+
+    .already-button-box {
+        left: 54px;
+    }
+}
+
+@media screen and (max-width:440.5px) and (min-width:400px) {
+
+    /*login form css*/
+    .login-form-box,
+    .register-form-box {
+        width: 100%;
+    }
+
+    .login-button button {
+        margin: 0 2.8rem;
+    }
+
+    .extra-div p {
+        left: 67px;
+    }
+
+    .extra-div button {
+        left: 6rem;
+        width: 33%;
+    }
+}
+
+@media screen and (max-width:400.5px) and (min-width:375px) {
+
+    /*login css start*/
+    .login-form-box,
+    .register-form-box {
+        width: 100%;
+    }
+
+    .form-floating .form-control {
+        width: 117%;
+    }
+
+    .forgot-password {
+        right: -4rem;
+    }
+
+    .extra-div p {
+        left: 46px;
+    }
+
+    .extra-div button {
+        left: 5rem;
+        width: 34%;
+    }
+
+    .login-button button {
+        margin: 0 2.6rem;
+    }
+
+    .multiple-login {
+        margin: 10px 40px;
+    }
+
+    /* register form css */
+    .register.form-floating .form-control {
+        margin: 0 27px;
+    }
+
+    .register-button button {
+        margin: 0 2.1rem;
+        width: 93%;
+    }
+
+    .already-button-box {
+        left: 32px;
+    }
+}
+
+@media screen and (max-width:374.5px) and (min-width:360px) {
+
+    /* login css start */
+    .login-form-box,
+    .register-form-box {
+        width: 100%;
+    }
+
+    .login-headline {
+        left: 2rem;
+    }
+
+    .form-floating .form-control {
+        width: 117%;
+        margin: 0 16px;
+    }
+
+    .forgot-password {
+        right: -4rem;
+    }
+
+    .login-button button {
+        margin: 0 2.4rem;
+    }
+
+    .extra-div p {
+        left: 36px;
+    }
+
+    .extra-div button {
+        left: 4.3rem;
+        width: 36%;
+    }
+
+    .multiple-login {
+        margin: 10px 37px;
+    }
+
+    /* register css start */
+    .register.form-floating .form-control {
+        width: 92%;
+        margin: 0 25px;
+    }
+
+    .register-form-headline {
+        left: 0.2rem;
+    }
+
+    .register-button button {
+        margin: 0 1rem;
+        width: 100%;
+    }
+
+    .already-button-box {
+        left: 19px;
+    }
+}
+
+@media screen and (max-width:359.5px) and (min-width:349px) {
+
+    /* login css start */
+    .login-form-box,
+    .register-form-box {
+        width: 100%;
+    }
+
+    .login-headline {
+        left: 2rem;
+    }
+
+    .form-floating .form-control {
+        width: 118%;
+        margin: 0 14px;
+    }
+
+    .forgot-password {
+        right: -4rem;
+    }
+
+    .login-button button {
+        margin: 0 2.3rem;
+    }
+
+    .extra-div p {
+        left: 30px;
+    }
+
+    .extra-div button {
+        left: 4.3rem;
+        width: 37%;
+    }
+
+    .multiple-login {
+        margin: 10px 36px;
+    }
+
+    /* register css start */
+    .register-form-headline {
+        left: 0rem;
+    }
+
+    .register.form-floating .form-control {
+        width: 90%;
+        margin: 0 24px;
+    }
+
+    .register-button button {
+        margin: 0 1.2rem;
+        width: 95%;
+    }
+
+    .already-button-box {
+        left: 17px;
+    }
+}
+
+@media screen and (max-width:348.5px) and (min-width:329px) {
+
+    /* login css start */
+    .login-form-box,
+    .register-form-box {
+        width: 100%;
+    }
+
+    .form-floating .form-control {
+        width: 116%;
+        margin: 0 17px;
+    }
+
+    .forgot-password {
+        right: -4rem;
+    }
+
+    .login-button button {
+        margin: 0 2.3rem;
+    }
+
+    .extra-div p {
+        left: 17px;
+    }
+
+    .extra-div button {
+        left: 3.3rem;
+        width: 41%;
+    }
+
+    .multiple-login {
+        margin: 10px 35px;
+    }
+
+    /* register form css start  */
+    .register-form-headline {
+        width: 102%;
+        left: 0.1rem;
+    }
+
+    .register.form-floating .form-control {
+        width: 88%;
+        margin: 0 22px;
+    }
+
+    .register-button button {
+        margin: 0 1.1rem;
+        width: 87%;
+    }
+
+    .already-button-box {
+        left: 8px;
+    }
+}
+
+@media screen and (max-width:328.5px) and (min-width:316px) {
+
+    /* login form css start */
+    .login-form-box,
+    .register-form-box {
+        width: 100%;
+    }
+
+    .login-headline {
+        width: 101%;
+        left: 2rem;
+    }
+
+    .form-floating .form-control {
+        width: 118%;
+        margin: 0 12px;
+    }
+
+    .forgot-password {
+        right: -3.3rem;
+    }
+
+    .login-button button {
+        margin: 0 2.1rem;
+    }
+
+    .extra-div p {
+        left: 9px;
+    }
+
+    .extra-div button {
+        left: 3.2rem;
+        width: 41%;
+    }
+
+    .multiple-login {
+        margin: 10px 33px;
+    }
+
+    /* register form css start */
+    .register-form-headline {
+        left: 0.1rem;
+        width: 95%;
+    }
+
+    .register.form-floating .form-control {
+        width: 79%;
+        margin: 0 27px;
+    }
+
+    .register-button button {
+        margin: 0 2.1rem;
+        width: 75%;
+    }
+
+    .already-button-box {
+        left: 0px;
+    }
+}
+
+@media screen and (max-width:315.5px) and (min-width:300px) {
+
+    /* login form css start */
+    .login-form-box,
+    .register-form-box {
+        width: 100%;
+    }
+
+    .login-headline {
+        left: 1.2rem;
+    }
+
+    .form-floating .form-control {
+        width: 115%;
+        margin: 0 14px;
+    }
+
+    .forgot-password {
+        right: -3rem;
+    }
+
+    .login-button button {
+        margin: 0 2rem;
+    }
+
+    .extra-div p {
+        left: 2px;
+    }
+
+    .extra-div button {
+        left: 2.3rem;
+        width: 44%;
+    }
+
+    .multiple-login {
+        margin: 10px 35px;
+    }
+
+    /* register form css start */
+    .register.form-floating .form-control {
+        width: 85%;
+    }
+
+    .register-form-headline {
+        left: 0.6rem;
+    }
+
+    .register-button button {
+        margin: 0 2.7rem;
+        width: 80%;
+    }
+
+    .already-button-box {
+        left: -6px;
+    }
+
+    .input-group-registeration {
+        width: 248px;
+    }
+
+    .already-button-box {
+        left: 16px;
+    }
+}
+
+@media screen and (max-width:299.5px) and (min-width:280px) {
+
+    /* login form css start */
+    .login-form-box,
+    .register-form-box {
+        width: 100%;
+    }
+
+    .login-headline {
+        left: 1.3rem;
+    }
+
+    .form-floating .form-control {
+        width: 111%;
+    }
+
+    .forgot-password {
+        right: -3rem;
+    }
+
+    .login-button button {
+        margin: 0 2rem;
+    }
+
+    .extra-div p {
+        left: -13px;
+    }
+
+    .extra-div button {
+        left: 1rem;
+        width: 54%;
+    }
+
+    .multiple-login {
+        margin: 10px 26px;
+    }
+
+    /* register form css */
+    .input-group-registeration {
+        width: 212px;
+    }
+
+    .register.form-floating .form-control {
+        margin: 0 30px;
+    }
+
+    .register-button button {
+        margin: 0 1.2rem;
+        width: 100%;
+    }
+
+    .already-button-box {
+        left: 30px;
+    }
+}
+
+@media screen and (max-width:279.5px) and (min-width:260px) {
+
+    /* login form css start */
+    .login-form-box,
+    .register-form-box {
+        width: 100%;
+    }
+
+    .login-headline {
+        left: 1.4rem;
+    }
+
+    .form-floating .form-control {
+        width: 107%;
+    }
+
+    .forgot-password {
+        right: -2rem;
+    }
+
+    .login-button button {
+        margin: 0 1.5rem;
+        width: 107%;
+    }
+
+    .extra-div p {
+        left: -18px;
+    }
+
+    .extra-div button {
+        left: 1rem;
+        width: 52%;
+    }
+
+    /*register form css start*/
+    .input-group-registeration {
+        width: 200px;
+    }
+
+    .register.form-floating .form-control {
+        margin: 0 22px;
+    }
+
+    .already-button-box {
+        left: 29px;
+    }
+
+    .register-button button {
+        margin: 0 1.5rem;
+    }
+
+    .form-floating .form-control+label {
+        font-size: 1rem;
+    }
+}

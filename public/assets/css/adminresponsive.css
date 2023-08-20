@@ -1,0 +1,151 @@
+@media(max-width: 1280px) {
+
+    /* admin userdetails css */
+    .Usersdetail-table {
+        margin: 0 113px;
+    }
+
+    .table.view-table{
+        width: 58%;
+    }
+
+    .admin-course-button button{
+        left: 25rem;
+    }
+}
+
+@media(max-width: 1070px) {
+
+    /* admin userdetails css */
+    .Usersdetail-table {
+        margin: 0 92px;
+    }
+
+    .table.view-table{
+        width: 74%;
+    }
+
+    .admin-course-button button{
+        left: 20rem;
+    }
+}
+
+@media(max-width: 992px) {
+
+    /* admin userdetails css */
+    .Usersdetail-table {
+        margin: 0 2rem;
+    }
+
+    .registerationdetail-table {
+        margin: 0 0rem;
+    }
+
+    .admin-course-button button{
+        left: 13rem;
+    }
+}
+
+@media(max-width: 820px) {
+
+    /* userdetails css */
+    .Usersdetail-table {
+        margin: 0 29px;
+    }
+
+    .registerationdetail-table {
+        margin: 0 3px;
+    }
+
+    .admin-course-button button{
+        left: 13rem;
+    }
+}
+
+@media(max-width: 540px){
+    .login-form-box {
+        width: 72%;
+    }
+    .multiple-login {
+        margin: 10px 27px;
+    }
+}
+
+@media(max-width: 767px){
+
+    /* admin dashboard css */
+    .admin-hr {
+        margin-left: 83px;
+    }
+
+    .admin-name,
+    .admin,
+    .admin-email {
+        width: 145%;
+    }
+
+    .admin-image {
+        margin-left: 145px;
+    }
+
+    /* admin userdetails css */
+    .userdetails-headline,
+    .registerationdetails-headline{
+        margin: -24px 9rem;
+        width: 100%;
+    }
+
+    .Usersdetail-table,
+    .registerationdetail-table{
+        margin: 0 -1rem;
+    }
+
+    .view-table{
+        margin: 0 -11px;
+    }
+
+    .course-headline {
+        margin: 0px 6rem;
+        width: 100%;
+    }
+
+    .admin-course-button button{
+        left: 9rem;
+    }
+
+    /* admin-nav css */
+    #nav .dropdown {
+        left: -2rem;
+    }
+
+    /****** users css start ******/
+    /*login-form css */
+    .login-form-box{
+        width: 100%;
+    }
+    .form-floating .form-control{
+        width: 99%;
+    }
+    .forgot-password{
+        right: 10rem;
+    }
+    .login-headline{
+        top: -1rem;
+        left: 6px;
+    }
+    .login-button button {
+        margin: 0 30px;
+    }
+    .extra-div p{
+        top: 16px;
+        left: 41px;
+    }
+    .extra-div button {
+        width: auto;
+        left: 74px;
+    }
+    .multiple-login {
+        margin: 10px 17px;
+    }
+}
+

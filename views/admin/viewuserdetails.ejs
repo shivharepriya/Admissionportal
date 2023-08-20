@@ -1,0 +1,63 @@
+
+<%- include('../admin/sidebar.ejs') %> 
+
+<section class="courseview-section">
+    <div class="container">
+      <br>
+      <br>
+        <div class="row">
+            <div class="col-12">
+                <div class="course-headline mt-5 d-flex justify-content-center">
+                    <h3>View Register Users</h3>
+                </div>
+                <center>
+                <table class="table view-table mt-5">
+                      <tr>
+                        <td>Username:</td>
+                        <td><%= usersView.name %></td>
+                      </tr>
+                   
+                      <tr>
+                        <td>Email:</td>
+                        <td><%= usersView.email %></td>
+                      </tr>
+                   
+                     <tr>
+                        <td>Mobile No:</td>
+                        <td><%= usersView.phone %></td>
+                      </tr>
+  
+                      <tr>
+                        <td>Address:</td>
+                        <td><%= usersView.address %></td>
+                      </tr>
+  
+                      <tr>
+                        <td>Gender:</td>
+                        <td><%= usersView.gender %></td>
+                      </tr>
+  
+                      <tr>
+                        <td>Collage:</td>
+                        <td><%= usersView.collage %></td>
+                      </tr>
+  
+                      <tr>
+                        <td>Course:</td>
+                        <td><%= usersView.courses %></td>
+                      </tr>
+  
+                      <tr>
+                        <td>Branch:</td>
+                        <td><%= usersView.branch %></td>
+                      </tr>
+                </table>
+                </center>
+            </div>
+  
+            <div class="col-12 admin-course-button mt-5 mb-3">
+                <a href="/admin/userdetails"><button class="btn">Back to User Details </button></a>
+            </div>
+        </div>
+    </div>
+</section>

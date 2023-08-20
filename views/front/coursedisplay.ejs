@@ -1,0 +1,160 @@
+<%- include('../front/header.ejs') %>
+
+<!-- display course section start here -->
+<section class="coursedisplaysection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="course-headline mt-5 d-flex justify-content-center">
+                    <h3>Courses You Applied</h3>
+                </div>
+                <% if(message.length > 0){ %>
+                    <div class="alert alert-success mt-2 w-50" style="margin-left:20rem;" role="alert">
+                        <h4 class="text-center"><%= message %></h4>
+                    </div>
+                <% } %>
+                <div class="table_body">
+                    <table class="table course-table mt-5">
+                        <thead>
+                          <tr>
+                            <th scope="col">S.No.</th>
+                            <th scope="col">Username</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Course</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Comment</th>
+                            <th scope="col">Action</th>
+                          </tr>
+                        </thead>
+    
+                        <% var i= 1%>
+                         <% CD.forEach((Item)=>{ %>
+                        <tbody>
+                          <tr>
+                            <th scope="row"><%= i++ %></th>
+                            <td><%= Item.name %></td>
+                            <td><%= Item.email %></td>
+                            <td><%= Item.courses %></td>
+                            <td><%= Item.status %></td>
+                            <td><%= Item.comment %></td>
+                            <td>
+                                <a href="/courseview/<%= Item._id %>"><button type="button" class="btn btn-info">View</button></a>
+                                <a href="/<%= Item._id %>" data-bs-target="#editModal" data-bs-toggle="modal" ><button type="button" class="btn btn-success">Edit</button></a>
+                            </td>
+                          </tr>
+                        </tbody>
+                        <% }) %>
+                    </table>
+                </div>
+            </div>
+
+            <div class="col-12 course-button mt-5 mb-3">
+                <a href="/dashboard"><button class="btn">Back to Home</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- display course section end here -->
+
+
+
+
+
+<!-- edit form modal start here -->
+<div class="modal" tabindex="-1" id="editModal">
+    <div class="modal-dialog">
+        <div class="modal-content registerModal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <% CD.forEach((Item)=>{ %>
+                <form action="/update_course/<%= Item._id %>" method="post"> 
+                    <div class="form-headline d-flex justify-content-center">
+                        <h2 style="color: darkgray;">Enrollment Registeration Form</h2>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2 mt-3">
+                        <input type="text" name="name" value="<%= Item.name %>" class="form-control" id="floatingInput" placeholder="name"
+                            required>
+                        <label for="floatingInput">Name</label>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2">
+                        <input type="email" name="email" value="<%= Item.email %>" class="form-control" id="floatingInput"
+                            placeholder="email address" required>
+                        <label for="floatingInput">Email address</label>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2">
+                        <input type="text" name="phone" value="<%= Item.phone %>" class="form-control" id="floatingPassword"
+                            placeholder="Mobile No." required>
+                        <label for="floatingPassword">Mobile No.</label>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2">
+                        <textarea class="form-control" name="address" placeholder="Address" id="floatingTextarea" required><%= Item.address %></textarea>
+                        <label for="floatingTextarea">Address</label>
+                    </div>
+
+                    <div class="form-check gender course-inputs mb-2 mt-3">
+                        <label for="gender">Gender :</label>
+
+                        <div class="form-check mt-1 ms-1">
+                            <input type="radio" name="gender" value="male" checked id="radio1" class="form-check-input" required>
+                            <label class="form-check-label" id="radio1" for="gender">Male</label>
+                        </div>
+                        <div class="form-check ms-1">
+                            <input  type="radio" name="gender" value="female" checked id="radio2" class="form-check-input" required>
+                            <label class="form-check-label" id="radio2" for="gender">Female</label>
+                        </div>
+                    </div>
+
+                    <div class="form-floating select-type-tags mb-2">
+                        <select class="form-select"name="collage" id="floatingSelect" aria-label="Floating label select example" required>
+                            <option selected>Select Collage</option>
+                            <option value="RGIT">RGIT</option>
+                            <option value="AMITY">AMITY</option>
+                            <option value="ITM">ITM</option>
+                            <option value="MITS">MITS</option>
+                            <option value="MPCT">MPCT</option>
+                            <option value="IPS">IPS</option>
+                            <option value="OTHERS">OTHERS</option>                           
+                        </select>
+                        <label for="floatingSelect">Collage</label>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2">
+                        <input type="text" name="courses" value="<%= Item.courses %>" class="form-control" id="floatingPassword"
+                            placeholder="Course Name" required>
+                        <label for="floatingPassword">Course</label>
+                    </div>
+
+                    <div class="form-floating select-type-tags mb-2">
+                        <select class="form-select" name="branch" id="floatingSelect" aria-label="Floating label select example" required>
+                            <option selected>Select Branch</option>
+                            <option value="C.S.E">C.S.E</option>
+                            <option value="I.T">I.T</option>
+                            <option value="E.E">E.E</option>
+                            <option value="E.C">E.C</option>
+                            <option value="MECH.">MECH.</option>
+                            <option value="CIVIL">CIVIL</option>
+                            <option value="AUTOMOBILE">AUTOMOBILE</option>
+                            <option value="OTHERS">OTHERS</option>   
+                        </select>
+                        <label for="floatingSelect">Branch</label>
+                    </div>
+                    
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="submit" class="btn Modals-button">Update</button>
+                    </div>
+                </form>
+                <% }) %>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- edit form modal end here -->
+
+<%- include('../front/footer.ejs') %>

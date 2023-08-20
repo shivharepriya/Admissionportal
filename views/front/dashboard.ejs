@@ -1,0 +1,471 @@
+<%- include('../front/header.ejs') %>
+
+
+<!--------- home first section start here -------->
+<section class="home-banner">
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-12">
+    			<div class="first-img d-flex justify-content-center">
+    				<h2>Locked Your Choice Of Course</h2>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+</section>
+
+<!--------- home first section start here -------->
+
+<% if(error.length > 0){ %>
+    <div class="alert alert-danger border-0">
+        <h4 class="text-center"><%= error %></h4>
+    </div>
+<% } %>
+
+<!------- dashboard section start here -------->
+<section class="dashboard mt-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="dashboard-content d-flex justify-content-center mt-5">
+                	<h2 style="text-transform: capitalize;">Welcome <%= username %></h2>
+                </div>
+                <div class="dashboard-content1 d-flex justify-content-center">
+                	<h2>Register Your Course Now</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-------- dashboard section end here ---------->
+
+
+<!------- course section start here ---------->
+<section class="course-blog mt-5">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card courses-blog-box">
+                    <img src="/assets/images/b-tech.jpg" class="card-img-top" alt="b-tech">
+                    <div class="card-body courses-blog-content">
+                        <h5 class="card-title">B-Tech</h5>
+                        <p class="card-text">The course is designed to develop the technical skills of aspirants who
+                            wish the work in the core technology and development sector.</p>
+                            
+                        <div class="d-grid gap-2 col-11 mx-auto">
+                            <% if(b) {%>
+                            <a href="/coursedisplay" class="display-toggle">Display</a>
+                            <% }else{ %>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#registerModalTwo">Register</button>
+                            <% } %> 
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card courses-blog-box">
+                    <img src="/assets/images/m-tech.png" class="card-img-top" alt="m-tech">
+                    <div class="card-body courses-blog-content">
+                        <h5 class="card-title">M-Tech</h5>
+                        <p class="card-text">The course is designed to develop the technical skills of aspirants who
+                            wish the work in the core technology and development sector.</p>
+                            
+                        <div class="d-grid gap-2 col-11 mx-auto">
+                            <% if(M) {%>
+                            <a href="/coursedisplay" class="display-toggle">Display</a>
+                            <% }else{ %>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#registerModalOne">Register</button>
+                            <% } %> 
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="margin-bottom: -5rem;">
+                <div class="card courses-blog-box">
+                    <img src="/assets/images/mca1.jpg" class="card-img-top" alt="b-tech">
+                    <div class="card-body courses-blog-content">
+                        <h5 class="card-title">MCA</h5>
+                        <p class="card-text">The course is designed to develop the technical skills of aspirants who
+                            wish the work in the core technology and development sector.</p>
+                            
+                        <div class="d-grid gap-2 col-11 mx-auto">
+                            <% if(mca) {%>
+                            <a href="/coursedisplay" class="display-toggle">Display</a>
+                            <% }else{ %>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#registerModalThree">Register</button>
+                            <% } %> 
+                        </div> 
+                      
+                    </div>
+                </div>
+            </div>
+        </div><!-- row end-->
+    </div><!--container end-->
+</section>
+<!-------- course section end here --------->
+
+
+<!------- Profile Modal start here --------->
+<div class="modal" tabindex="-1" id="profileModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="/profile/<%= id %>" method="post">
+                    <div class="profile-form-headline d-flex justify-content-center">
+                        <h2 style="color: darkgray;">Change Password</h2>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2 mt-3">
+                        <input type="text" name="name" value="<%=username %>" class="form-control" id="floatingInput" placeholder="name" required>
+                        <label for="floatingInput">Name</label>
+                    </div>
+
+                    <div class="form-floating profileFloating course-inputs mb-2">
+                        <input type="email" value="<%=useremail %>" name="email" class="form-control" id="floatingInput" placeholder="email address"
+                            required>
+                        <label for="floatingInput">Email address</label>
+                    </div>
+
+                    <div class="form-floating profileFloating course-inputs mb-2">
+                        <input type="text" name="oldpassword" class="form-control" id="floatingPassword" placeholder="Old Password"
+                            required>
+                        <label for="floatingPassword">Current PW</label>
+                    </div>
+
+                    <div class="form-floating profileFloating course-inputs mb-2">
+                        <input type="text" name="password" class="form-control" id="floatingPassword" placeholder="New Password"
+                            required>
+                        <label for="floatingPassword">Update PW</label>
+                    </div>
+
+                    <div class="form-floating profileFloating course-inputs mb-2">
+                        <input type="text" name="changepassword" class="form-control" id="floatingPassword" placeholder="Re-enter Password"
+                            required>
+                        <label for="floatingPassword"> Repeat PW</label>
+                    </div>
+
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="submit" class="btn Modals-button">Update</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!------- Profile Modal end here --------->
+
+
+<!--------- M.tech modal form start here ---------->
+<div class="modal" tabindex="-1" id="registerModalOne">
+    <div class="modal-dialog Register-modal-dialog">
+        <div class="modal-content registerModal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <form action="/course_register" method="post">
+
+                    <div class="form-headline d-flex justify-content-center">
+                        <h2 style="color: darkgray;">Enrollment Registeration Form</h2>
+                    </div>
+
+                    <input type="hidden" name="user_id" value="<%= id %>">
+
+                    <div class="form-floating course-inputs mb-2 mt-3">
+                        <input type="text" name="name" value="<%= username %>" class="form-control" id="floatingInput" placeholder="name"
+                            required>
+                        <label for="floatingInput">Name</label>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2">
+                        <input type="email" name="email" value="<%= useremail %>" class="form-control" id="floatingInput"
+                            placeholder="email address" required>
+                        <label for="floatingInput">Email address</label>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2">
+                        <input type="text" name="phone" class="form-control" id="floatingPassword"
+                            placeholder="Mobile No." required>
+                        <label for="floatingPassword">Mobile No.</label>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2">
+                        <textarea class="form-control" name="address" placeholder="Address" id="floatingTextarea" required></textarea>
+                        <label for="floatingTextarea">Address</label>
+                    </div>
+
+                    <div class="form-check gender course-inputs mb-2 mt-3">
+                        <label for="gender">Gender :</label>
+
+                        <div class="form-check mt-1 ms-1">
+                            <input type="radio" name="gender" value="male" id="radio1" class="form-check-input" required>
+                            <label class="form-check-label" id="radio1" for="gender">Male</label>
+                        </div>
+                        <div class="form-check ms-1">
+                            <input  type="radio" name="gender" value="female" id="radio2" class="form-check-input" required>
+                            <label class="form-check-label" id="radio2" for="gender">Female</label>
+                        </div>
+                    </div>
+
+                    <div class="form-floating select-type-tags mb-2">
+                        <select class="form-select"name="collage" id="floatingSelect" aria-label="Floating label select example" required>
+                            <option selected>Select Collage</option>
+                            <option value="RGIT">RGIT</option>
+                            <option value="AMITY">AMITY</option>
+                            <option value="ITM">ITM</option>
+                            <option value="MITS">MITS</option>
+                            <option value="MPCT">MPCT</option>
+                            <option value="IPS">IPS</option>
+                            <option value="OTHERS">OTHERS</option>                           
+                        </select>
+                        <label for="floatingSelect">Collage</label>
+                    </div>
+
+                    <div class="form-floating select-type-tags mb-2">
+                            <select class="form-select" name="courses" id="floatingSelect" aria-label="Floating label select example" required>
+                                <option selected>Select Course</option>
+                                <option value="M-Tech">M-Tech</option> 
+                            </select>
+                        <label for="floatingPassword">Course</label>
+                    </div>
+
+                    <div class="form-floating select-type-tags mb-2">
+                        <select class="form-select" name="branch" id="floatingSelect" aria-label="Floating label select example" required>
+                            <option selected>Select Branch</option>
+                            <option value="C.S.E">C.S.E</option>
+                            <option value="I.T">I.T</option>
+                            <option value="E.E">E.E</option>
+                            <option value="E.C">E.C</option>
+                            <option value="MECH.">MECH.</option>
+                            <option value="CIVIL">CIVIL</option>
+                            <option value="AUTOMOBILE">AUTOMOBILE</option>
+                            <option value="OTHERS">OTHERS</option>   
+                        </select>
+                        <label for="floatingSelect">Branch</label>
+                    </div>
+                    
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="submit" class="btn Modals-button">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------- M.tech modal form end here ---------->
+
+
+<!--------- B.tech modal form start here ---------->
+<div class="modal" tabindex="-1" id="registerModalTwo">
+    <div class="modal-dialog">
+        <div class="modal-content registerModal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <form action="/course_register" method="post">
+
+                    <div class="form-headline d-flex justify-content-center">
+                        <h2 style="color: darkgray;">Enrollment Registeration Form</h2>
+                    </div>
+
+                    <input type="hidden" name="user_id" value="<%= id %>">
+
+                    <div class="form-floating course-inputs mb-2 mt-3">
+                        <input type="text" name="name" value="<%= username %>" class="form-control" id="floatingInput" placeholder="name"
+                            required>
+                        <label for="floatingInput">Name</label>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2">
+                        <input type="email" name="email" value="<%= useremail %>" class="form-control" id="floatingInput"
+                            placeholder="email address" required>
+                        <label for="floatingInput">Email address</label>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2">
+                        <input type="text" name="phone" class="form-control" id="floatingPassword"
+                            placeholder="Mobile No." required>
+                        <label for="floatingPassword">Mobile No.</label>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2">
+                        <textarea class="form-control" name="address" placeholder="Address" id="floatingTextarea" required></textarea>
+                        <label for="floatingTextarea">Address</label>
+                    </div>
+
+                    <div class="form-check gender course-inputs mb-2 mt-3">
+                        <label for="gender">Gender :</label>
+
+                        <div class="form-check mt-1 ms-1">
+                            <input type="radio" name="gender" value="male" id="radio1" class="form-check-input" required>
+                            <label class="form-check-label" id="radio1" for="gender">Male</label>
+                        </div>
+                        <div class="form-check ms-1">
+                            <input  type="radio" name="gender" value="female" id="radio2" class="form-check-input" required>
+                            <label class="form-check-label" id="radio2" for="gender">Female</label>
+                        </div>
+                    </div>
+
+                    <div class="form-floating select-type-tags mb-2">
+                        <select class="form-select"name="collage" id="floatingSelect" aria-label="Floating label select example" required>
+                            <option selected>Select Collage</option>
+                            <option value="RGIT">RGIT</option>
+                            <option value="AMITY">AMITY</option>
+                            <option value="ITM">ITM</option>
+                            <option value="MITS">MITS</option>
+                            <option value="MPCT">MPCT</option>
+                            <option value="IPS">IPS</option>
+                            <option value="OTHERS">OTHERS</option>                           
+                        </select>
+                        <label for="floatingSelect">Collage</label>
+                    </div>
+
+                    <div class="form-floating select-type-tags mb-2">
+                        <select class="form-select" name="courses" id="floatingSelect" aria-label="Floating label select example" required>
+                            <option selected>Select Course</option>
+                            <option value="B-Tech">B-Tech</option> 
+                        </select>
+                        <label for="floatingPassword">Course</label>
+                    </div>
+
+                    <div class="form-floating select-type-tags mb-2">
+                        <select class="form-select" name="branch" id="floatingSelect" aria-label="Floating label select example" required>
+                            <option selected>Select Branch</option>
+                            <option value="C.S.E">C.S.E</option>
+                            <option value="I.T">I.T</option>
+                            <option value="E.E">E.E</option>
+                            <option value="E.C">E.C</option>
+                            <option value="MECH.">MECH.</option>
+                            <option value="CIVIL">CIVIL</option>
+                            <option value="AUTOMOBILE">AUTOMOBILE</option>
+                            <option value="OTHERS">OTHERS</option>   
+                        </select>
+                        <label for="floatingSelect">Branch</label>
+                    </div>
+                    
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="submit" class="btn Modals-button">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------- B.tech modal form end here ---------->
+
+
+<!--------- MCA modal form start here ---------->
+<div class="modal" tabindex="-1" id="registerModalThree">
+    <div class="modal-dialog">
+        <div class="modal-content registerModal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <form action="/course_register" method="post">
+
+                    <div class="form-headline d-flex justify-content-center">
+                        <h2 style="color: darkgray;">Enrollment Registeration Form</h2>
+                    </div>
+    
+                    <input type="hidden" name="user_id" value="<%= id %>">
+
+                    <div class="form-floating course-inputs mb-2 mt-3">
+                        <input type="text" name="name" value="<%= username %>" class="form-control" id="floatingInput" placeholder="name"
+                            required>
+                        <label for="floatingInput">Name</label>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2">
+                        <input type="email" name="email" value="<%= useremail %>" class="form-control" id="floatingInput"
+                            placeholder="email address" required>
+                        <label for="floatingInput">Email address</label>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2">
+                        <input type="text" name="phone" class="form-control" id="floatingPassword"
+                            placeholder="Mobile No." required>
+                        <label for="floatingPassword">Mobile No.</label>
+                    </div>
+
+                    <div class="form-floating course-inputs mb-2">
+                        <textarea class="form-control" name="address" placeholder="Address" id="floatingTextarea" required></textarea>
+                        <label for="floatingTextarea">Address</label>
+                    </div>
+
+                    <div class="form-check gender course-inputs mb-2 mt-3">
+                        <label for="gender">Gender :</label>
+
+                        <div class="form-check mt-1 ms-1">
+                            <input type="radio" name="gender" value="male" id="radio1" class="form-check-input" required>
+                            <label class="form-check-label" id="radio1" for="gender">Male</label>
+                        </div>
+                        <div class="form-check ms-1">
+                            <input  type="radio" name="gender" value="female" id="radio2" class="form-check-input" required>
+                            <label class="form-check-label" id="radio2" for="gender">Female</label>
+                        </div>
+                    </div>
+
+                    <div class="form-floating select-type-tags mb-2">
+                        <select class="form-select"name="collage" id="floatingSelect" aria-label="Floating label select example" required>
+                            <option selected>Select Collage</option>
+                            <option value="RGIT">RGIT</option>
+                            <option value="AMITY">AMITY</option>
+                            <option value="ITM">ITM</option>
+                            <option value="MITS">MITS</option>
+                            <option value="MPCT">MPCT</option>
+                            <option value="IPS">IPS</option>
+                            <option value="OTHERS">OTHERS</option>                           
+                        </select>
+                        <label for="floatingSelect">Collage</label>
+                    </div>
+
+                    <div class="form-floating select-type-tags mb-2">
+                        <select class="form-select" name="courses" id="floatingSelect" aria-label="Floating label select example" required>
+                            <option selected>Select Course</option>
+                            <option value="MCA">MCA</option> 
+                        </select>
+                        <label for="floatingPassword">Course</label>
+                    </div>
+
+                    <div class="form-floating select-type-tags mb-2">
+                        <select class="form-select" name="branch" id="floatingSelect" aria-label="Floating label select example" required>
+                            <option selected>Select Branch</option>
+                            <option value="C.S.E">C.S.E</option>
+                            <option value="I.T">I.T</option>
+                            <option value="E.E">E.E</option>
+                            <option value="E.C">E.C</option>
+                            <option value="MECH.">MECH.</option>
+                            <option value="CIVIL">CIVIL</option>
+                            <option value="AUTOMOBILE">AUTOMOBILE</option>
+                            <option value="OTHERS">OTHERS</option>   
+                        </select>
+                        <label for="floatingSelect">Branch</label>
+                    </div>
+                    
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="submit" class="btn Modals-button">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------- MCA modal form end here ---------->
+
+
+<%- include('../front/footer.ejs') %>

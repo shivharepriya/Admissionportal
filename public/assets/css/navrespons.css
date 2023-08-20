@@ -1,0 +1,2953 @@
+@media(max-width: 1300px) {
+
+    /* user navbar css start */
+    .btn-group,
+    .btn-group-vertical {
+        left: 14em;
+    }
+     /* user navbar css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 1095px;
+    }
+    /* register course css end */
+
+    /* footer css end */
+    .middle-footer {
+        padding: 3rem 0rem;
+        background: #2e1a3b;
+        height: 318px;
+    }
+    /* footer css end */
+}
+
+@media screen and (max-width: 1300.5px) and (min-width: 1200px) {
+
+    /* user navbar css start */
+    #user-nav .navbar-nav .nav-item .nav-link {
+        left: 2rem;
+    }
+     /* user navbar css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 81%;
+        margin: 0 7rem;
+    }
+
+    .course-button button {
+        left: 31rem;
+    }
+    /* enrollment css end */
+}
+
+@media screen and (max-width: 1199.5px) and (min-width: 1049px) {
+
+    /* user navbar css start */
+    #user-nav .navbar .navbar-brand {
+        position: relative;
+        right: 2rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        left: 1rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: 8em;
+    }
+    /* user navbar css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 967px;
+    }
+    /* register course css end */
+
+    /* footer css start */
+    .middle-footer {
+        font-size: 13px;
+        padding: 4rem 2rem;
+    }
+
+    .middle-footer h6 {
+        font-size: 12px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 92%;
+        margin: 0 2.3rem;
+    }
+
+    .course-button button {
+        left: 19.4em;
+    }
+    /* enrollment css end */
+
+    /* contact css start */
+
+    .form-area {
+        padding-top: 10%;
+    }
+    /* contact css end */
+
+}
+
+@media screen and (max-width: 1049.5px) and (min-width: 1025px) {
+
+    /* user navbar css start */
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        left: 1.1rem;
+    }
+
+    .btn-group {
+        left: 8rem;
+    }
+    /* user navbar css start */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 964px;
+    }
+    /* register course css end */
+
+    /* footer css start */
+    .middle-footer {
+        font-size: 13px;
+        padding: 5rem 2rem;
+    }
+
+    .middle-footer h6 {
+        font-size: 12px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 93%;
+        margin: 0 2rem;
+    }
+
+    .course-button button {
+        width: 20%;
+        left: 27rem;
+    }
+    /* enrollment css end */
+
+    /* contact css start */
+    .form-area {
+        padding-top: 10%;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 1025.5px) and (min-width: 1000px) {
+
+    /* user nav css start */
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        left: 1rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: 6em;
+    }
+    /* user css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 950px;
+    }
+    /* register course css end */
+
+    /* footer css end */
+    .middle-footer {
+        font-size: 12px;
+        padding: 4rem 2rem;
+    }
+
+    .middle-footer h6 {
+        font-size: 12px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 100%;
+        margin: 0 0rem;
+    }
+
+    .course-button button {
+        width: 20%;
+        left: 26rem;
+    }
+    /* enrollment css end */
+
+    
+    /* contact css start */
+    .form-area {
+        padding-top: 11%;
+    }
+    /* contact css end */
+    
+}
+
+@media screen and (max-width: 1000.5px) and (min-width: 992px) {
+
+    /* user nav css start */
+    #user-nav .navbar-nav .nav-item .nav-link {
+        left: 0rem;
+    }
+
+    .btn-group {
+        left: 5rem;
+    }
+    /* user nav css start */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 950px;
+    }
+    /* register course css end */
+
+    /* footer css end */
+    .middle-footer {
+        font-size: 12px;
+        padding: 4rem 2rem;
+    }
+
+    .middle-footer h6 {
+        font-size: 12px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 94%;
+        margin: 0 2rem;
+    }
+
+    .course-button button {
+        width: 20%;
+        left: 26rem;
+    }
+    /* enrollment css end */
+
+    /* contact css start */
+    .form-area {
+        padding-top: 11%;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 991.5px) and (min-width: 900px) {
+
+    /* user nav css start */
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -3rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -3em;
+        margin-top: 10px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 19px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 850px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+    /* register course css start */
+
+    /* about css start */
+    .about-item {
+        padding: 49px 16px;
+    }
+
+    .about-item p {
+        font-size: 15px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        font-size: 13px;
+        padding: 2rem 2rem;
+    }
+
+    .middle-footer h6 {
+        font-size: 12px;
+    }
+
+    .middle-footer .col-lg-2 {
+        position: relative;
+        left: 4em;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 105%;
+        margin: 0 0rem;
+    }
+
+    .course-button button {
+        width: 22%;
+        left: 22rem;
+    }
+    /* enrollment css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 125px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 56px;
+        margin-left: 3rem;
+    }
+
+    .form-area {
+        padding-top: 11%;
+    }
+
+    .contact-box-right {
+        padding: 54px 69px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 15rem;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 899.5px) and (min-width: 800px) {
+
+    /* user nav css start */
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        left: -2.5rem;
+    }
+
+    .btn-group {
+        left: -2.1em;
+        margin-top: 10px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 850px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+    /* register course css end */
+
+    /* about css start */
+    .about-item {
+        padding: 49px 16px;
+    }
+
+    .about-item p {
+        font-size: 15px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        font-size: 13px;
+        padding: 2rem 2rem;
+        height: 344px
+    }
+
+    .middle-footer h6 {
+        font-size: 12px;
+    }
+
+    .middle-footer .col-lg-2 {
+        position: relative;
+        left: 4em;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 117%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 24%;
+        left: 21rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 125px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 56px;
+        margin-left: 3rem;
+    }
+
+    .form-area {
+        padding-top: 17%;
+    }
+
+    .contact-box-right {
+        padding: 54px 69px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 14rem;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 799.5px) and (min-width: 768px) {
+
+    /* user nav css start */
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -3rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -43px;
+        margin: 10px 0 25px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 18px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 779px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 2.5rem;
+    }
+    /* register course css end */
+
+    /* about css start */
+    .about-item {
+        padding: 49px 16px;
+    }
+
+    .about-item p {
+        font-size: 15px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        font-size: 13px;
+        padding: 2rem 2rem;
+        height: 344px
+    }
+
+    .middle-footer h6 {
+        font-size: 12px;
+    }
+
+    .middle-footer .col-lg-2 {
+        position: relative;
+        left: 4em;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 122%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 25%;
+        left: 19rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 125px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 56px;
+        margin-left: 3rem;
+    }
+
+    .form-area {
+        padding-top: 17%;
+    }
+
+    .contact-box-right {
+        padding: 54px 69px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 11rem;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 767.5px) and (min-width: 700px) {
+
+    /* user nav css start */
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -3rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -43px;
+        margin: 10px 0 2px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 18px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 2.5rem;
+        top: 19rem;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* about css start */
+    .about-item {
+        height: 315px;
+        margin: -3px auto 54px;
+        padding: 48px 46px;
+    }
+    /* about css end */
+
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 2rem;
+        height: 870px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 100px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 135%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 32%;
+        left: 17rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 125px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 56px;
+        margin-left: 3rem;
+    }
+
+    .form-area {
+        padding-top: 18%;
+    }
+
+    .contact-box-right {
+        padding: 54px 69px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 11rem;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 699.5px) and (min-width: 640px) {
+
+    /* user nav css start */
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -3rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -43px;
+        margin: 10px 0 2px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 18px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 2.3rem;
+        top: 19rem;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* about css start */
+    .about-item {
+        height: 304px;
+        margin: -3px auto 54px;
+        padding: 48px 46px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 2rem;
+        height: 870px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 100px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 149%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 32%;
+        left: 15rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 125px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 47px;
+        margin-left: 3rem;
+    }
+
+    .form-area {
+        padding-top: 21%;
+    }
+
+    .contact-box-right {
+        padding: 54px 51px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 11rem;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 639.5px) and (min-width: 600px) {
+
+    /* user nav css start */
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -3rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -43px;
+        margin: 10px 0 2px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 18px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 2.1rem;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* about css start */
+    .about-item {
+        height: 304px;
+        margin: -3px 22px 54px;
+        padding: 48px 46px;
+    }
+    /* about css end */
+
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 2rem;
+        height: 870px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 100px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 160%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 32%;
+        left: 14rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 125px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 47px;
+        margin-left: 3rem;
+    }
+
+    .form-area {
+        padding-top: 22%;
+    }
+
+    .contact-box-right {
+        padding: 54px 51px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 9rem;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 599.5px) and (min-width: 576px) {
+
+    /* user nav css start */
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -3rem;
+        font-size: 1.2rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -43px;
+        margin: 10px 0 2px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 18px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 2rem;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* about css start */
+    .about-item {
+        height: 319px;
+        margin: -3px 22px 54px;
+        padding: 40px 46px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 2rem;
+        height: 870px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 100px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 169%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 33%;
+        left: 12rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 125px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 47px;
+        margin-left: 3rem;
+    }
+
+    .form-area {
+        padding-top: 20%;
+    }
+
+    .contact-box-right {
+        padding: 54px 27px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 10rem;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 575.5px) and (min-width: 539px) {
+
+    /* user nav css start */
+    .navbar-toggler {
+        margin: 0 20px;
+    }
+
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.4rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -2rem;
+        font-size: 1.1rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -29px;
+        margin: 10px 0 0px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 18px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 2rem;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* about css start */
+    .about-item {
+        height: 319px;
+        margin: -3px 22px 54px;
+        padding: 40px 46px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 2rem;
+        height: 870px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 100px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 168%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 35%;
+        left: 12rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 125px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 47px;
+        margin-left: 3rem;
+    }
+
+    .form-area {
+        padding-top: 20%;
+    }
+
+    .contact-box-right {
+        padding: 54px 27px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 8rem;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 538.5px) and (min-width: 500px) {
+
+    /* user nav css start */
+    .navbar-toggler {
+        margin: 0 20px;
+    }
+
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.4rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -2rem;
+        font-size: 1.1rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -29px;
+        margin: 10px 0 0px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 18px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img :first-child {
+        font-size: 1.7rem;
+    }
+    .dashboard-content :first-child, .dashboard-content1 :first-child {
+        font-size: 1.6rem;
+    }
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* about css start */
+    .about-item {
+        height: 350px;
+        margin: -3px 22px 54px;
+        padding: 40px 46px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 3rem;
+        height: 940px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 100px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 184%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 38%;
+        left: 11rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 125px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 46px;
+        margin-left: 1rem;
+    }
+
+    .form-area {
+        padding-top: 25%;
+    }
+
+    .contact-box-right {
+        padding: 54px 27px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 8rem;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 499.5px) and (min-width: 480px) {
+
+    /* user nav css start */
+    .navbar-toggler {
+        margin: 0 20px;
+    }
+
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.4rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -2rem;
+        font-size: 1.1rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -29px;
+        margin: 10px 0 0px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 18px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 1.7rem;
+    }
+
+    .dashboard-content :first-child, .dashboard-content1 :first-child {
+        font-size: 1.6rem;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* about css start */
+    .about-item {
+        height: 375px;
+        margin: -3px 22px 54px;
+        padding: 40px 46px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 3rem;
+        height: 940px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 100px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 199%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 40%;
+        left: 10rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 125px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 46px;
+        margin-left: 1rem;
+    }
+
+    .form-area {
+        padding-top: 28%;
+    }
+
+    .contact-box-right {
+        padding: 54px 27px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 6rem;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 479.5px) and (min-width: 460px) {
+
+    /* user nav css start */
+    .navbar-toggler {
+        margin: 0 20px;
+    }
+
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.4rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -2rem;
+        font-size: 1.1rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -29px;
+        margin: 10px 0 0px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 18px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 25px;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* dashboard css start */
+    .dashboard-content :first-child {
+        font-size: 1.3rem;
+    }
+    .dashboard-content1 :first-child {
+        font-size: 1.5rem;
+    }
+    /* dashboard css end */
+
+    /* about css start */
+    .about-item {
+        height: 390px;
+        margin: -3px 22px 54px;
+        padding: 40px 46px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 3rem;
+        height: 964px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 100px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 209%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 43%;
+        left: 9rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 125px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 46px;
+        margin-left: 1rem;
+    }
+
+    .form-area {
+        padding-top: 28%;
+    }
+
+    .contact-box-right {
+        padding: 54px 27px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 6rem;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 459.5px) and (min-width: 429px) {
+
+    /* user nav css start */
+    .navbar-toggler {
+        margin: 0 20px;
+    }
+
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.4rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -2rem;
+        font-size: 1.1rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -29px;
+        margin: 10px 0 0px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 18px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 21px;
+        top: 19rem;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* dashboard css start */
+    .dashboard-content :first-child {
+        font-size: 1.3rem;
+    }
+    .dashboard-content1 :first-child {
+        font-size: 1.5rem;
+    }
+    /* dashboard css end */
+
+    /* about css start */
+    .about-item {
+        height: 399px;
+        margin: -3px 22px 54px;
+        padding: 40px 46px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 3rem;
+        height: 964px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 100px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-table {
+        width: 224%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 45%;
+        left: 8.1rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 125px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 42px;
+        margin-left: 1rem;
+    }
+
+    .form-area {
+        padding-top: 30%;
+    }
+
+    .contact-box-right {
+        padding: 54px 27px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 78px;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 428.5px) and (min-width: 420px) {
+
+    /* user nav css start */
+    .navbar-toggler {
+        margin: 0 20px;
+    }
+
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.4rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -2rem;
+        font-size: 1.1rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -29px;
+        margin: 10px 0 0px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 18px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 21px;
+        top: 14em;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* dashboard css start */
+    .dashboard-content :first-child {
+        font-size: 1.3rem;
+    }
+    .dashboard-content1 :first-child {
+        font-size: 1.5rem;
+    }
+    /* dashboard css end */
+
+    /* about css start */
+    .about-item {
+        height: 420px;
+        margin: -3px 22px 54px;
+        padding: 40px 46px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 3rem;
+        height: 987px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 100px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-headline h3 {
+        font-size: 1.5rem;
+    }
+
+    .course-table {
+        width: 230%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 45%;
+        left: 8.1rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 127px 49px;
+    }
+    .enquiry-box-left h2 {
+        font-size: 41px;
+        margin-left: -1rem;
+    }
+    .form-area {
+        padding-top: 28%;
+    }
+    .contact-box-right {
+        padding: 54px 27px;
+    }
+    .contact-box-right i {
+        display: none;
+    }
+    .contact-box-right button {
+        margin-left: 78px;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 419.5px) and (min-width: 400px) {
+
+    /* user nav css start */
+    .navbar-toggler {
+        margin: 0 20px;
+    }
+
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.3rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -2rem;
+        font-size: 1rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -29px;
+        margin: 10px 0 0px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 18px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 21px;
+        top: 14em;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* dashboard css start */
+    .dashboard-content :first-child {
+        font-size: 1.3rem;
+    }
+    .dashboard-content1 :first-child {
+        font-size: 1.5rem;
+    }
+    /* dashboard css end */
+
+    /* about css start */
+    .about-1 p {
+        width: 100%;
+    }
+
+    .about-item {
+        height: 440px;
+        margin: -3px 22px 54px;
+        padding: 40px 46px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 3rem;
+        height: 1000px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 100px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-headline h3 {
+        font-size: 1.6rem;
+    }
+
+    .course-table {
+        width: 246%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 48%;
+        left: 7rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+
+    .course-inputs {
+        margin: 0 4px;
+    }
+
+    .select-type-tags {
+        margin: 9px 24px;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 127px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 43px;
+        margin-left: -1rem;
+    }
+
+    .form-area {
+        padding-top: 30%;
+    }
+
+    .contact-box-right {
+        padding: 54px 27px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 59px;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 399.5px) and (min-width: 375px) {
+
+    /* user nav css start */
+    .navbar-toggler {
+        margin: 0 20px;
+    }
+
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -21px;
+        margin: 10px 0 0px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 15px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 26px;
+        top: 11em;
+        left: 1em;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* dashboard css start */
+    .dashboard-content :first-child {
+        font-size: 1.3rem;
+    }
+    .dashboard-content1 :first-child {
+        font-size: 1.5rem;
+    }
+    /* dashboard css end */
+
+    /* about css start */
+    .about-1 p {
+        width: 100%;
+    }
+
+    .about-item {
+        height: 450px;
+        margin: -3px 14px 54px;
+        padding: 40px 46px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 3rem;
+        height: 1000px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 83px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-headline h3 {
+        font-size: 1.3rem;
+    }
+
+    .course-table {
+        width: 259%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 52%;
+        left: 6.2rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .form-headline h2 {
+        font-size: 1.3rem;
+    }
+
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+
+    .course-inputs {
+        margin: 0 4px;
+    }
+
+    .select-type-tags {
+        margin: 9px 24px;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 127px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 39px;
+        margin-left: -1rem;
+    }
+
+    .form-area {
+        padding-top: 27%;
+    }
+
+    .contact-box-right {
+        padding: 54px 27px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 59px;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 374.5px) and (min-width: 359px) {
+
+    /* user nav css start */
+    .navbar-toggler {
+        margin: 0 20px;
+    }
+
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -21px;
+        margin: 10px 0 0px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 15px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 23px;
+        top: 13em;
+        left: 2em;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* dashboard css start */
+    .dashboard-content :first-child {
+        font-size: 1.3rem;
+    }
+    .dashboard-content1 :first-child {
+        font-size: 1.4rem;
+    }
+    /* dashboard css end */
+
+    /* about css start */
+    .about-1 p {
+        width: 100%;
+    }
+
+    .about-item {
+        height: 450px;
+        margin: -3px 14px 54px;
+        padding: 40px 46px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 3rem;
+        height: 1000px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 100px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-headline h3 {
+        font-size: 1.5rem;
+    }
+
+    .course-table {
+        width: 300%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 54%;
+        left: 6.2rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .form-headline h2 {
+        font-size: 1.2rem;
+    }
+
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+
+    .course-inputs {
+        margin: 0 4px;
+    }
+
+    .select-type-tags {
+        margin: 9px 24px;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 127px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 36px;
+        margin-left: -1rem;
+    }
+
+    .form-area {
+        padding-top: 32%;
+    }
+
+    .contact-box-right {
+        padding: 52px 23px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 54px;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 358.5px) and (min-width: 339px) {
+
+    /* user nav css start */
+    .navbar-toggler {
+        margin: 0 20px;
+    }
+
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -21px;
+        margin: 10px 0 0px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 16px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 21px;
+        top: 13em;
+        left: 2em;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* dashboard css start */
+    .dashboard-content :first-child {
+        font-size: 1.3rem;
+    }
+    .dashboard-content1 :first-child {
+        font-size: 1.4rem;
+    }
+    /* dashboard css end */
+
+    /* about css start */
+    .about-1 p {
+        width: 100%;
+    }
+
+    .about-item {
+        height: 424px;
+        margin: -3px 14px 54px;
+        padding: 45px 17px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 0rem 2rem;
+        height: 1000px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 79px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-headline h3 {
+        font-size: 1.5rem;
+    }
+
+    .course-table {
+        width: 300%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 56%;
+        left: 5.3rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .form-headline h2 {
+        font-size: 1.2rem;
+    }
+
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+
+    .course-inputs {
+        margin: 0 4px;
+    }
+
+    .select-type-tags {
+        margin: 9px 24px;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 127px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 34px;
+        margin-left: -1rem;
+    }
+
+    .form-area {
+        padding-top: 31%;
+    }
+
+    .contact-box-right {
+        padding: 50px 29px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 37px;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 338.5px) and (min-width: 319px) {
+
+    /* user nav css start */
+    .navbar-toggler {
+        margin: 0 20px;
+    }
+
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -21px;
+        margin: 10px 0 0px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 16px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img {
+        background-size: auto;
+    }
+
+    .first-img :first-child {
+        font-size: 21px;
+        top: 13em;
+        left: 1.2em;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* dashboard css start */
+    .dashboard-content :first-child {
+        font-size: 1.3rem;
+    }
+    .dashboard-content1 :first-child {
+        font-size: 1.4rem;
+        word-spacing: 0;
+    }
+    /* dashboard css end */
+
+    /* about css start */
+    .about-1 p {
+        width: 100%;
+    }
+
+    .about-item {
+        height: 435px;
+        margin: -3px 8px 54px;
+        padding: 45px 17px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 2rem;
+        height: 1041px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 78px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-headline h3 {
+        font-size: 1.5rem;
+    }
+
+    .course-table {
+        width: 300%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 98%;
+    }
+
+    .course-button button {
+        width: 59%;
+        left: 5rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .form-headline h2 {
+        font-size: 1.2rem;
+    }
+
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+
+    .course-inputs {
+        margin: 0 4px;
+    }
+
+    .select-type-tags {
+        margin: 9px 24px;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 127px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 31px;
+        margin-left: -1rem;
+    }
+
+    .form-area {
+        padding-top: 32%;
+    }
+
+    .contact-box-right {
+        padding: 51px 25px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 32px;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 318.5px) and (min-width: 299px) {
+
+    /* user nav css start */
+    .navbar-toggler {
+        margin: 0 20px;
+    }
+
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -21px;
+        margin: 10px 0 0px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 16px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img :first-child {
+        font-size: 21px;
+        top: 13em;
+        left: 1em;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* dashboard css start */
+    .dashboard-content :first-child{
+        font-size: 1.2rem;  
+    }
+   .dashboard-content1 :first-child  {
+        font-size: 1.3rem;
+        word-spacing: 0;
+    }
+    /* dashboard css end */
+
+    /* about css start */
+    .about-1 p {
+        width: 100%;
+    }
+
+    .about-item {
+        height: 455px;
+        margin: -3px 8px 54px;
+        padding: 45px 21px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 1rem;
+        height: 1080px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 76px;
+    }
+    /* footer css end */
+
+    /* enrollment css start */
+    .course-headline h3 {
+        font-size: 1.5rem;
+    }
+
+    .course-table {
+        width: 314%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 64%;
+        left: 4rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .form-headline h2 {
+        font-size: 1.1rem;
+    }
+
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+
+    .course-inputs {
+        margin: 0 2px;
+    }
+
+    .select-type-tags {
+        margin: 9px 24px;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 127px 49px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 28px;
+        margin-left: -1rem;
+    }
+
+    .form-area {
+        padding-top: 34%;
+    }
+
+    .contact-box-right {
+        padding: 55px 25px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 22px;
+    }
+    /* contact css end */
+}
+
+@media screen and (max-width: 298.5px) and (min-width: 275px) {
+
+    /* user nav css start */
+    .navbar-toggler {
+        margin: 0 20px;
+    }
+
+    #user-nav .navbar .navbar-brand {
+        font-size: 1.1rem;
+    }
+
+    #user-nav .navbar-nav .nav-item .nav-link {
+        letter-spacing: 1px;
+        left: -1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        left: -21px;
+        margin: 10px 0 0px;
+    }
+
+    .profile-button button,
+    .logout-button a {
+        font-size: 16px;
+    }
+    /* user nav css end */
+
+    /* register course css start */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 700px;
+    }
+
+    .first-img :first-child {
+       font-size: 18px;
+       top: 16em;
+       left: 1.8em;
+    }
+
+    .courses-blog-box {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    /* register course css end */
+
+    /* dashboard css start */
+    .dashboard-content1 :first-child,
+    .dashboard-content :first-child {
+        font-size: 1.2rem;
+        word-spacing: 0;
+    }
+    /* dashboard css end */
+    
+    /* about css start */
+    .about-1 p {
+        width: 100%;
+    }
+
+    .about-item {
+        height: 455px;
+        margin: -3px 8px 54px;
+        padding: 45px 21px;
+    }
+    /* about css end */
+
+    /* footer css start */
+    .middle-footer {
+        padding: 3rem 1rem;
+        height: 907px;
+        font-size: 12px;
+    }
+
+    .middle-footer h6 {
+        font-size: 17px;
+    }
+
+    .first-footer {
+        margin-top: 5rem;
+    }
+    /* footer css end */
+
+    /* about css start */
+    .about-1 p {
+        font-family: math;
+        width: 100%;
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .about-item {
+        height: 490px;
+        margin: -3px 8px 54px;
+        padding: 45px 21px;
+    }
+    /* about css end */
+
+    /* profile modal css start */
+    .course-inputs {
+        width: 78%;
+        margin: 0 -13px;
+    }
+
+    .form-floating .form-control+label {
+        font-size: 13px;
+    }
+    /* profile modal css end */
+
+    /* enrollment css start */
+    .course-headline h3 {
+        font-size: 1.4rem;
+    }
+
+    .course-table {
+        width: 344%;
+        margin: 0 0rem;
+    }
+
+    .table_body {
+        width: 100%;
+    }
+
+    .course-button button {
+        width: 69%;
+        left: 3rem;
+    }
+    /* enrollment css end */
+
+    /* edit button css start */
+    .form-headline h2 {
+        font-size: 1rem;
+    }
+
+    .registerModal-content.modal-content {
+        width: 100%;
+        margin: 1.75rem 0rem;
+    }
+
+    .course-inputs {
+        font-size: 0.9rem;
+        width: 70%;
+        margin: 0 0px;
+    }
+
+    .select-type-tags {
+        width: 79%;
+        margin: 9px 24px;
+    }
+
+    .form-floating .form-control {
+        width: 115%;
+        margin: 0 23px;
+    }
+    /* edit button css end */
+
+    /* contact css start */
+    .enquiry-box-left {
+        padding: 130px 45px;
+    }
+
+    .enquiry-box-left h2 {
+        font-size: 30px;
+        margin-left: -2rem;
+    }
+
+    .form-area {
+        padding-top: 34%;
+    }
+
+    .contact-box-right {
+        padding: 39px 25px;
+    }
+
+    .contact-box-right i {
+        display: none;
+    }
+
+    .contact-box-right button {
+        margin-left: 13px;
+    }
+    /* contact css end */
+}

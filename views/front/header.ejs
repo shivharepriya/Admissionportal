@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>navbar</title>
+
+  <!-- bootstrap 5 CDN links-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- bootstrap javaScript link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- font awesome CDN link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <!-- custom css files link -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <!-- <link rel="stylesheet" href="/assets/css/user.css"> -->
+  <link rel="stylesheet" href="/assets/css/navrespons.css">
+
+</head>
+<body>
+
+  <!--------- navbar section start ----------->
+  <header class="header" id="user-nav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#admissionPortal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/dashboard">Admission Portal</a>
+        <div class="collapse navbar-collapse" id="admissionPortal">
+          <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/dashboard">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/coursedisplay">Enroll Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+            <!-- <ul class="navbar-nav ms-5 mb-2 mb-lg-0"> -->
+              <div class="btn-group">
+                <div class="profile-button">
+                  <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                    data-bs-target="#profileModal">Profile</button>
+                </div>
+
+                <div class="logout-button">
+                  <button class="btn btn-outline-light"><a href="/logout">Logout</a></button>
+                </div> 
+              </div>
+            <!-- </ul> -->
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--------- navbar section exit ------------>

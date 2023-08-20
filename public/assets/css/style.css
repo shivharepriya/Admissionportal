@@ -1,0 +1,739 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*********login form css start here*********/
+a {
+	text-decoration: none;
+}
+
+.login-register-form-section {
+	height: auto;
+	background: linear-gradient(-186deg, #723c98, #ff000045 54%, #fff 0);
+}
+
+.form-container {
+	height: 600px;
+}
+
+.login-form-box {
+	height: 450px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+	top: 3.1rem;
+	position: relative;
+	width: 32%;
+}
+
+.login-headline {
+	letter-spacing: 1px;
+	font-family: auto;
+	/* top: -1rem; */
+	position: relative;
+	left: 3rem;
+	color: purple;
+	width: 108%;
+}
+
+.login-input-group {
+	width: 312px;
+	transition: .5s;
+}
+
+.fa-envelope,
+.fa-eye-slash {
+	color: #3a21ab94;
+	position: absolute;
+	top: 25px;
+	left: 0.6rem;
+}
+
+.form-floating .form-control {
+	width: 121%;
+	border: none;
+	border-bottom: 1px solid #999;
+	border-radius: 0;
+	margin: 0 18px;
+    /*this margin is a alternative option of type = text class*/
+}
+
+.form-floating .form-control+label {
+	color: darkgrey;
+	margin: 0 1.2rem;
+	letter-spacing: .3px;
+	transition: all .5s;
+	font-size: 1.1rem;
+}
+
+.form-floating .form-control:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+.forgot-password {
+	color: #80808096;
+	right: -5rem;
+	border: none;
+	background: transparent;
+	position: absolute;
+}
+
+.login-button button,
+.register-button button {
+	background: #5610d8ab;
+	color: #fff;
+	width: 100%;
+	border-radius: 100px;
+	padding: 11px 0;
+	line-height: 1.2;
+	margin: 0 3rem;
+}
+
+.login-button button:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+.login-button button:hover {
+	border: 1px solid purple;
+	background: whitesmoke;
+	color: #7f1be1;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .4);
+}
+
+.extra-div {
+	position: relative;
+	align-items: center;
+	height: 86px;
+	width: 100%;
+	left: 51px;
+}
+
+.extra-div p {
+	position: absolute;
+	color: darkgrey;
+	top: 14px;
+	left: 71px;
+}
+
+.extra-div button {
+	width: 34%;
+	color: #5610d8ab;
+	background: transparent;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #8000803d;
+	left: 6.3rem;
+	position: absolute;
+}
+
+.extra-div a button:hover {
+	font-weight: 600;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.multiple-login {
+	margin: 10px 47px;
+}
+
+.multiple-login a {
+	background: linear-gradient(178deg, #8011ce, #b94278b0);
+	padding: 0px 8px;
+	font-size: 24px;
+	border-radius: 55%;
+	color: #fff;
+	border: none;
+}
+
+.multiple-login a:hover {
+	background: linear-gradient(193deg, #b94278b0, #8e6fa4);
+}
+/*********login form css end here*********/
+
+/*********registeration form css start here*********/
+.register-form-box {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+	top: 3.1rem;
+	position: relative;
+	width: 32%;
+	height: 500px;
+}
+
+.input-group-registeration {
+	top: 3rem;
+	position: absolute;
+	width: 312px;
+	transition: .5s;
+}
+
+.already-button-box {
+	position: relative;
+	align-items: center;
+	height: 86px;
+	width: 100%;
+	left: 51px;
+}
+
+.already-button-box button {
+	top: -12px;
+	position: relative;
+	border-bottom: 1px solid #8000803d;
+	color: #5610d8ab;
+	background: transparent;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+}
+
+.already-button-box a button:hover {
+	font-weight: 600;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.register-form-headline {
+	letter-spacing: 1px;
+	font-family: auto;
+	top: -1rem;
+	position: relative;
+	left: 3rem;
+	color: purple;
+	width: 108%;
+}
+/*********registeration form css end here*********/
+
+
+/***********navbar css start here*************/
+#user-nav .navbar {
+	box-shadow: 0 4px 8px rgb(78 36 85);
+	background: #917291;
+}
+
+.navbar-toggler:focus {
+	outline: none !important;
+	box-shadow: none;
+	border: none!important;
+}
+
+#user-nav .navbar .navbar-brand {
+	font-size: 1.7rem;
+	color: #fff;
+}
+
+#user-nav .navbar .navbar-brand:hover {
+	text-shadow: 2px 2px 4px rgb(255 34 7);
+	color: #f5f5f5e6;
+}
+
+#user-nav .navbar-nav .nav-item .nav-link {
+	left: 10rem;
+	position: relative;
+	margin: 0 3px;
+	font-size: 1.2rem;
+	color: white;
+}
+
+#user-nav .navbar-nav .nav-item .nav-link:hover {
+	color: #f5f5f5e6;
+}
+
+#user-nav .navbar-nav .nav-item .nav-link.active {
+	color: #fff;
+}
+
+.btn-group,
+.btn-group-vertical {
+	position: relative;
+	left: 25em;
+}
+
+.profile-button button,
+.logout-button a {
+	letter-spacing: 0.6px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.logout-button a:hover {
+	color: #000;
+}
+/***********navbar end here*************/
+
+
+/*************home banner css start******************/
+.first-img {
+	background: url('/assets/images/university.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	object-fit: cover;
+}
+
+.first-img :first-child {
+	font-weight: 700;
+	font-size: 3rem;
+	position: absolute;
+	top: 21rem;
+	color: #fffbfe;
+	letter-spacing: 2px;
+}
+
+.dashboard-content :first-child {
+	letter-spacing: 1px;
+	font-size: 2.7rem;
+	color: #37053cb8;
+}
+
+.dashboard-content1 :first-child {
+	color: #a4a3a6;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	font-size: 2rem;
+}
+
+.courses-blog-box img {
+	height: 235px;
+}
+
+.courses-blog-content h5 {
+	font-size: 1.7rem;
+	color: #d9b346;
+	margin-left: 15px;
+}
+
+.courses-blog-content p {
+	font-weight: 700;
+	letter-spacing: 0.4px;
+	color: #15033f54;
+	position: relative;
+	width: 97%;
+	left: 16px;
+}
+
+.courses-blog-content :last-child {
+	background: #4e094ea6;
+}
+
+.courses-blog-content :last-child:focus {
+	box-shadow: none;
+}
+
+.courses-blog-content :last-child:hover {
+	background: #3b003b7a;
+	box-shadow: 0 3px 5px rgb(78 36 85 / 71%);
+}
+
+.display-toggle {
+	letter-spacing: 0.1px;
+	text-align: center;
+	color: #fff;
+	padding: 8px 0;
+}
+
+.display-toggle:hover {
+	color: #fff;
+}
+
+.course-inputs {
+	width: 70%;
+	border: none;
+	border-radius: 0;
+	margin: 0 18px;
+}
+
+.registerModal-content.modal-content {
+	width: 113%;
+}
+
+.modal-content input,
+.modal-content select {
+	border: none;
+	border-bottom: 1px solid;
+	border-radius: 0;
+}
+
+.modal-content input+label,
+.modal-content textarea+label,
+.modal-content select+label {
+	letter-spacing: 0.2px;
+	color: #808080e6;
+	font-size: 1.2rem;
+	transition: all .5s;
+}
+
+.modal-content input:focus {
+	box-shadow: none;
+}
+
+.modal-content select:focus {
+	box-shadow: none;
+}
+
+.gender {
+	letter-spacing: 0.2px;
+	color: #808080e6;
+	font-size: 1.2rem;
+}
+
+.select-type-tags {
+	margin: 9px 35px;
+	width: 85%;
+}
+
+.form-floating>.form-select {
+	padding-top: 1.625rem;
+	padding-bottom: 0.625rem;
+}
+
+.form-check input+label {
+	font-size: 1rem;
+}
+
+.modal-footer {
+	border-top: none;
+}
+
+.Modals-button {
+	color: #fff;
+	margin-top: 2rem;
+	font-size: 1.3rem;
+	letter-spacing: 0.1px;
+	background: #5e0790ab;
+	width: 68%;
+}
+
+.Modals-button:hover {
+	box-shadow: 0 3px 5px rgb(78 36 85 / 71%);
+	font-weight: 700;
+	background: #fff;
+	color: #5e0790ab;
+	border: 1px solid mediumpurple;
+}
+/*************home banner css end here******************/
+
+/*************course-display css start here******************/
+.table {
+	font-size: 1.2rem;
+}
+
+.table_body {
+	width: 100%;
+	overflow: auto;
+}
+
+.course-table {
+	width: 67%;
+	margin: 0 12rem;
+}
+
+.course-headline h3 {
+	margin: 52px 0 0;
+	letter-spacing: 0.1px;
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: #463e3e7d;
+	word-spacing: 4px;
+}
+
+.table>:not(caption)>*>* {
+	color: #fff;
+	border-bottom-width: 0px;
+	box-shadow: inset 0 0 0 9999px #4919316e;
+}
+
+.table button {
+	background: #35353e26;
+	margin: 0 2px;
+	color: #fff;
+}
+
+.table button:hover {
+	color: #000;
+	background: #fff;
+}
+
+.course-button button {
+	position: absolute;
+	font-size: 1.5rem;
+	border: 2px solid purple;
+	width: 18%;
+	left: 39rem;
+}
+
+.course-button button:hover {
+	font-weight: 600;
+	color: #fff;
+	background-color: #373c36a1;
+	border: none;
+	box-shadow: 0 5px 8px rgb(0 0 0);
+}
+/*************course-display css start here******************/
+
+
+/***********view course css start here************/
+.table.view-table {
+	width: 50%;
+}
+
+.view-table td {
+	padding: 7px 4rem;
+	background: linear-gradient(45deg, #6c495e, transparent);
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.view-table tr:hover {
+	opacity: 0.6;
+}
+
+.coursedis-button button {
+	position: absolute;
+	font-size: 1.5rem;
+	border: 2px solid purple;
+	width: 18%;
+	left: 38rem;
+}
+
+.coursedis-button button:hover {
+	font-weight: 600;
+	color: #fff;
+	background-color: #373c36a1;
+	border: none;
+	box-shadow: 0 5px 8px rgb(0 0 0);
+}
+/***********view course css end here************/
+
+
+/************** footer css start here **************/
+.first-footer {
+	margin-top: 98px;
+	background: black !important;
+	color: #fff !important;
+}
+
+.middle-footer {
+	padding: 2rem 2rem;
+	background: #2e1a3b;
+	height: 264px;
+}
+
+.footer-email-icon {
+	color: #fff;
+	position: inherit;
+}
+/************** footer css end here **************/
+
+
+/************** admin nav css start here **************/
+#nav .navbar {
+	background: #fff;
+	box-shadow: 0 5px 8px rgb(160 148 148 / 58%);
+}
+
+.offcanvas-start {
+	top: 0;
+	left: 0;
+	width: 311px;
+	border-right: 1px solid rgba(0, 0, 0, .2);
+	transform: translateX(-100%);
+}
+
+#nav .navbar-toggler {
+	border: none;
+}
+
+#nav .navbar-toggler:focus,
+#nav .navbar .btn-close {
+	box-shadow: none;
+}
+
+#nav .dropdown {
+	top: 8px;
+	left: -2rem;
+	position: absolute;
+}
+
+#nav .nav-item .nav-link {
+	color: #752894;
+}
+
+#nav .nav-item .nav-link:hover {
+	color: #942876;
+}
+
+#nav .nav-item .nav-link.active {
+	margin-top: 4rem;
+	color: blueviolet;
+}
+
+#nav .nav-item .nav-link.active:hover {
+	color: #942876;
+	font-weight: 700;
+}
+
+.dropdown-menu[data-bs-popper] {
+	line-height: 1;
+	border: none;
+	left: -6px;
+}
+
+.offcanvas-body {
+	flex-grow: 1;
+	padding: 1rem 1rem;
+	overflow-y: hidden;
+}
+
+.admin-course-button button {
+	position: relative;
+	font-size: 1.5rem;
+	border: 2px solid purple;
+	left: 33rem;
+}
+
+.admin-course-button button:hover {
+	font-weight: 600;
+	color: #fff;
+	background-color: #373c36a1;
+	border: none;
+	box-shadow: 0 5px 8px rgb(0 0 0);
+}
+
+.Usersdetail-table {
+	margin: 0 126px;
+	width: 80%;
+}
+/************** admin nav css end here **************/
+
+
+/************** About css start here **************/
+.about-1 {
+	margin: 74px 0 27px;
+	padding: 5px;
+}
+
+.about-1 h1 {
+	text-align: center;
+	color: #704584;
+	font-weight: bold;
+}
+
+.about-1 p {
+	margin: 12px auto;
+	width: 82%;
+	text-align: center;
+	padding: 3px;
+	font-weight: 300;
+}
+
+.about-item {
+	height: 450px;
+	margin: 25px auto -3px;
+	padding: 80px 30px;
+	box-shadow: 0 0 9px rgb(149 84 186 / 76%);
+}
+
+.about-item i {
+	font-size: 43px;
+	margin: 0;
+}
+
+.about-item h3 {
+	font-size: 25px;
+	margin: 6px 0 10px;
+}
+
+.about-item hr {
+	width: 46px;
+	height: 3px;
+	background-color: #5fbff9;
+	margin: 0 auto;
+	border: none;
+}
+
+.about-item:hover {
+	background-color: #c15ff9cc;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+	color: #fff;
+	transition: all 400ms ease-in-out;
+}
+
+.about-item:hover hr {
+	background-color: #fff;
+}
+
+.about-item:hover i {
+	transform: translateY(-20px);
+}
+/************** About css end here **************/
+
+
+/************** contact css start here **************/
+.form-area {
+	padding-top: 10%;
+}
+
+.single-form {
+	box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.enquiry-box-left {
+	background: linear-gradient(294deg, #320a44e6, #7630a68a);
+	padding: 200px 98px;
+}
+
+.enquiry-box-left h2 {
+	font-family: poppins;
+	color: #fff;
+	font-weight: 700;
+	font-size: 48px;
+}
+
+.enquiry-box-left h2 span {
+	font-weight: 100;
+}
+
+.single-form {
+	background: #fff;
+}
+
+.contact-box-right {
+	padding: 85px 100px;
+	position: relative;
+}
+
+.contact-box-right i {
+	position: absolute;
+	font-size: 80px;
+	left: -27px;
+	top: 40%;
+	color: #fff;
+}
+
+.form-control:focus {
+	box-shadow: none;
+}
+
+.contact-box-right button {
+	border: none;
+	background: #ce50f0b8;
+	width: 180px;
+	color: #fff;
+	padding: 12px 0;
+	display: inline-block;
+	font-size: 18px;
+	margin-top: 20px;
+	cursor: pointer;
+	letter-spacing: 0.9px;
+}
+
+.contact-box-right button:hover {
+	font-weight: 600;
+	background: #80008094;
+}
+/************** contact css end here **************/

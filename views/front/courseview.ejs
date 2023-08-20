@@ -1,0 +1,82 @@
+<%- include('../front/header.ejs') %>
+
+  <section class="courseview-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="course-headline mt-5 d-flex justify-content-center">
+            <h3>Data View</h3>
+          </div>
+          <center>
+            <div class="table_body">
+              <table class="table view-table mt-5">
+                <tr>
+                  <td>Username:</td>
+                  <td>
+                    <%= data.name %>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Email:</td>
+                  <td>
+                    <%= data.email %>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Mobile No:</td>
+                  <td>
+                    <%= data.phone %>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Address:</td>
+                  <td>
+                    <%= data.address %>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Gender:</td>
+                  <td>
+                    <%= data.gender %>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Collage:</td>
+                  <td>
+                    <%= data.collage %>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Course:</td>
+                  <td>
+                    <%= data.courses %>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Branch:</td>
+                  <td>
+                    <%= data.branch %>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+          </center>
+        </div>
+
+        <div class="col-12 course-button mt-5 mb-3">
+          <a href="/coursedisplay"><button class="btn">Back to Display</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <%- include('../front/footer.ejs') %>
