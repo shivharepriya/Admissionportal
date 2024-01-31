@@ -71,10 +71,7 @@ class UsersController {
                             const token = jsonwebtoken.sign({ userId: user._id }, process.env.JWT_SECRET_KEY);
                             // console.log(token)
                             res.cookie('token', token)
-                            res.redirect('/dashboard')
-                            // if(token){
-                            //    console.log(window.localStorage.setItem("user", true)) 
-                            // }    
+                            res.redirect('/dashboard')  
                         }
                         if (user.role == 'admin') {
                             //verifytoken
@@ -263,10 +260,6 @@ class UsersController {
             console.log(error)
         }
     }
-
-    // static checkLogedIn = async(req,res)=>{
-
-    // }
 }
 
 module.exports = UsersController

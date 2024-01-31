@@ -424,7 +424,7 @@ a {
 }
 
 .course-table {
-	width: 67%;
+	width: 70%;
 	margin: 0 12rem;
 }
 
@@ -604,6 +604,18 @@ a {
 	margin: 0 126px;
 	width: 80%;
 }
+
+/* registerationdetail-table css start */
+/* .registerationdetail-table{
+	width: 151vh;
+} */
+
+
+/* .registerationdetails-headline h3{
+	font-size: 1vh
+} */ 
+/* do headline responsive work */
+/* registerationdetail-table css end */
 /************** admin nav css end here **************/
 
 

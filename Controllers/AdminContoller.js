@@ -17,7 +17,7 @@ class AdminController {
     static registerationDetail = async (req, res) => {
         // const{_id, name, email}= req.showUserData;
         const RegisterDetail = await enrollmentModel.find()
-        // console.log(RegisterDetail)
+        // console.log(RegisterDetail) //courseregisterdetail page
         res.render('admin/courseregisterationdetails', { RD: RegisterDetail })
     }
 
@@ -25,7 +25,7 @@ class AdminController {
         try {
             // console.log(req.params.id)
             const viewCourseDetails = await enrollmentModel.findById(req.params.id)
-            // console.log(viewDetails)
+            // console.log(viewCourseDetails) //view register user page 
             res.render('admin/viewcoursedetails', { courseView: viewCourseDetails })
         } catch (error) {
             console.log(error)
@@ -36,7 +36,7 @@ class AdminController {
         try {
             // console.log(req.params.id)
             const usersviewDetails = await userModel.findById(req.params.id)
-            // console.log(viewDetails)
+            // console.log(usersviewDetails)
             res.render('admin/viewuserdetails', { usersView: usersviewDetails })
         } catch (error) {
             console.log(error)
@@ -53,7 +53,7 @@ class AdminController {
                 comment: comment
             })
             await result.save()
-            return res.redirect('/admin/registerdetails')
+            return res.redirect('/admin/courseregisterdetails')
 
         } catch (error) {
             console.log(error)

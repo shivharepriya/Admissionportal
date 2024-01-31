@@ -37,7 +37,4 @@ router.get('/auth/google', passport.authenticate("google", {
 }))
 router.get('/auth/google/callback', passport.authenticate("google"), UsersController.callbackGoogle)
 
-
-// router.post('/isLoggedIn',checkUserAuth,UsersController.checkLogedIn)
-
 module.exports = router

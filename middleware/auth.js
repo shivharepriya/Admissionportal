@@ -14,9 +14,9 @@ const checkUserAuth = async(req,res,next)=>{
         const userData = await userModel.findOne({_id:verify_token.userId})
         // console.log(userData)
         req.showUserData = userData
-        // console.log(req.showUserData._id)
+        // console.log(req.showUserData._id) // this giving same id which we use 
+        // in the form user_id.
         next();
     }
 }
-
 module.exports = checkUserAuth
